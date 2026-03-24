@@ -8,7 +8,7 @@ The pipeline processes customer orders, products, and their details through a me
 
 ## 🏗️ Architecture
 
---insert image here
+![Project Architecture](images/Project_Architecture.png)
 
 ### Data Flow
 ```
@@ -130,7 +130,7 @@ def products_staging():
 ### 4. Databricks Workflows
 Databricks Workflows (also known as Lakeflow Jobs) is a fully managed, native orchestration service within the Databricks Data Intelligence Platform. It enables users to build, schedule, and monitor complex ETL, analytics, and machine learning pipelines, supporting up to 1,000 tasks per job using notebooks, SQL, Python, or JAR
 
---insert image here
+![Project Workflow](images/Customer_Orders_Workflows.png)
 
 ### 5. Unity Catalog
 Databricks Unity Catalog is a unified data and AI governance solution built directly into the Databricks Lakehouse Platform. It provides a central place to manage data access, audit controls, and data discovery across multiple workspaces and clouds, using a standard ANSI SQL interface
